@@ -1,0 +1,144 @@
+.myDiv{
+    width: 200px;
+    background-color: lightblue;
+    padding: 50px;
+    box-shadow: 10px 10px;
+  }
+  .myDiv:hover{
+    width: 200px;
+    background-color: rgb(251, 153, 153);
+    padding: 50px;
+    box-shadow: 10px 10px;
+  }
+  h1{
+    color:brown;
+  }
+  h2{
+    color: blueviolet;
+  }
+  h3{
+    color: white;
+  }
+
+  .first{
+    color: burlywood;
+    text-align: center ;
+    
+  }
+
+  body {
+    background-image: url(pics\top-view-monochromatic-leaves-with-copy-space.png);
+    background-repeat:repeat-y;
+    background-size:contain;
+    position:relative;
+  }
+  .dot {
+    height: 100px;
+    width:100px;
+    background-color: #e46060;
+    border-radius: 50%;
+    display: inline-block;
+  }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.flexes{
+  display: flex; 
+  background-color: greenyellow;
+}
+.boxes{
+  width: 200px;
+  height: 200px;
+  margin:10px;
+  background-color: rgb(222, 238, 181);
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  background-color: blanchedalmond;
+  gap: 10px;
+}
+.grid-item {
+  color: rgb(212, 164, 92);
+  
+}
+.box {
+  width: 200px;
+  height: 150px;
+  padding: 50px;
+  border: 5px ridge (145, 145, 77);
+  margin: 10px;
+}
+* {
+  box-sizing:content-box;
+}
+.static-box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  position: static;
+  top: 100px; 
+  left: 500px;
+}
+
+.relative-box {
+  width: 100px;
+  height: 100px;
+  left:40%;
+  top:30%;
+  background-color: lightcoral;
+  position: relative;
+}
+
+.sticky-box{
+  width: 100px;
+  height: 10px;
+  box-sizing: content-box;
+  position: sticky;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+      background-color: lightblue;
+  }
+}
+@media screen and (min-width: 700px) {
+  body {
+      background-color: rgb(191, 117, 191);
+  }
+}
+.one{
+  background-color:#e46060;
+  height:50px;
+  width:50px;
+  top: 0px;
+  left:0px;
+}
+.two{
+  background-color:#75bad8;
+  height:50px;
+  width:50px;
+  top: 40px;
+  left:40px;
+}
+.three{
+  background-color:#60e374;
+  height:50px;
+  width:50px;
+  top: 60px;
+  left:60px;
+}
+.order{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height:100vh;
+  width: 0vb;
+}

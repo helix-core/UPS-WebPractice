@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheets" href="styletest.css">
+</head>
+<style>
+    p{
+        color:green;
+    }
+    .parent{
+        display: flex;
+    }
+    .child{
+        width:50%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .mydiv{
+            width:200px;
+            background-color: blue;
+        }
+    @media(max-width:600px){
+        .parent{
+            flex-direction: column;
+        }
+        .child{
+            width: 100%;
+        }
+        .mydiv{
+            width:100px;
+            background-color: blue;
+        }
+    }
+    
+    
+    
+    
+
+</style>
+<body>
+    <p style="color:red">Hello World</p>
+    <div class="parent">
+        <div class="child" style="background-color:red ;"></div>
+        <div class="child" style="background-color: blue;"></div>
+    </div><br><br>
+    <div class="mydiv">Hi</div>
+    
+</body>
+</html>
